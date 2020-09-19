@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearlayoutAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:id="@+id/imageviewAlbum"
+            android:layout_width="380dp"
+            android:layout_height="380dp"/>
+        <TextView
+            android:textSize="20sp"
+            android:maxWidth="200dp"
+            android:textColor="#0A25AE"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="bla bla bla bal bal"
+            android:id="@+id/textviewTenAlbum"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="15sp"
+            android:maxWidth="200dp"
+            android:textColor="#159DCF"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="AMEE"
+            android:id="@+id/textviewCaSiAlbum"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

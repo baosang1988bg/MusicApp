@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:text="Ten chu de"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/textviewTenChuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/textviewTenChuDe"
+        android:id="@+id/recyclerviewChuDeCon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

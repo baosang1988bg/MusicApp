@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@drawable/sleep_intro"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sleep"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ngủ - một trong những hành động được bọc trong vòng lặp vô hạn của con người khi mà ta cảm thấy không muốn thức"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
